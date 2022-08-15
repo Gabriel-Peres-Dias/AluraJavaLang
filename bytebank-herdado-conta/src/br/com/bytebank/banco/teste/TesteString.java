@@ -11,6 +11,13 @@ public class TesteString {
 		String cpfSemPonto = cpf.replace(".", "");
 		String cpfSemCaracteres = cpfSemPonto.replace("-", "");
 		System.out.println(cpfSemCaracteres);
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append("Olá, ");
+		sb.append("me chamo ");
+		sb.append("Gabriel.");
+		sb.toString();
+		System.out.println(sb);
 		//String outro = new String("Outro");  
 	}
 
